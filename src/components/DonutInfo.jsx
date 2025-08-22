@@ -36,11 +36,11 @@ const DonutInfo = () => {
   }, [open]);
 
   return (
-    <div id="descContainer" className="flex flex-col ml-50 w-[50vw] gap-7">
-      <div id="heading" className="text-4xl text-poppins-normal">
+    <div id="descContainer" className="flex flex-col ml-50 w-[50vw] gap-6">
+      <div id="heading" className="text-3xl text-poppins-normal">
         {donutInfo[open].name}
       </div>
-      <div id="description" className="m-5 text-3xl text-poppins-light">
+      <div id="description" className="m-5.5 text-2xl text-poppins-light">
         {donutInfo[open].description}
       </div>
     </div>
