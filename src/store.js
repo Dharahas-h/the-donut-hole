@@ -4,11 +4,13 @@ import { useProxy } from "valtio/utils";
 const store = proxy({ open: 0 });
 const donutState = proxy({ donutNumber: 0 });
 
+export const basePath = "the-donut-hole";
+
 export const donutModelPaths = [
-  "/models/donut1.glb",
-  "/models/donut2.glb",
-  "/models/donut3.glb",
-  "/models/donut4.glb",
+  `${basePath}/models/donut1.glb`,
+  `${basePath}/models/donut2.glb`,
+  `${basePath}/models/donut3.glb`,
+  `${basePath}/models/donut4.glb`,
 ];
 
 export const donutInfo = [
