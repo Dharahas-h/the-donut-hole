@@ -34,11 +34,6 @@ const Overlay = () => {
               Donuts
             </div>
             <Navbar />
-            {/* {<div className="flex gap-12 text-3xl text-poppins-mid-heavy">
-              <div className="content-center">Order</div>
-              <div className="content-center">About</div>
-              <div className="content-center">Contact</div>
-            </div>} */}
           </div>
         </div>
         <div className="flex">
