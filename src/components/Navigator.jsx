@@ -12,7 +12,7 @@ const Navigator = () => {
   const donutInfos = donutInfo.slice(1);
 
   return (
-    <div className="content-center flex gap-7 pointer-events-auto">
+    <div className="content-center flex gap-8 pointer-events-auto">
       {donutInfos.map((obj, idx) => (
         <NavigationItem key={idx} name={obj.name} number={idx} />
       ))}
@@ -46,7 +46,7 @@ const NavigationItem = ({ name, number }) => {
   return (
     <div
       ref={navItemRef}
-      className="text-poppins-semi-bold content-center rounded-2xl p-3 cursor-pointer"
+      className="text-poppins-semi-bold content-center rounded-2xl p-2.5 cursor-pointer"
       style={{ backgroundColor: donutInfos[number].color, color: "white" }}
       onClick={(e) => {
         e.stopPropagation();

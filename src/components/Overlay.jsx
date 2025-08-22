@@ -26,9 +26,9 @@ const Overlay = () => {
     <>
       <div className="absolute flex flex-col justify-between h-dvh w-full top-0 left-0 pointer-events-none">
         <div className="navbar-background">
-          <div className="ml-30 mr-50 mb-9 mt-9 flex align-middle justify-between">
+          <div className="ml-30 mr-50 mb-7 mt-7 flex align-middle justify-between">
             <div
-              className="font-bold text-6xl text-macondo-regular"
+              className="font-bold text-5xl text-macondo-regular"
               ref={donutTextRef}
             >
               Donuts

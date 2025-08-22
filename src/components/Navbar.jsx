@@ -13,7 +13,7 @@ const Navbar = () => {
   });
 
   return (
-    <div className="flex gap-12 text-3xl text-poppins-mid-heavy">
+    <div className="flex gap-10 text-2xl text-poppins-mid-heavy">
       <div id="order" className="content-center">
         Order
       </div>
